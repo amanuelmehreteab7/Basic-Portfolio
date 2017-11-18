@@ -4,57 +4,51 @@
 
     <meta charset="UTF-8"
 
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto|Spectral+SC" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
 
   </head>
-  	<!-- <div class='entire-content-area'> -->
-    <div class='page-width'
-      <div id="header" class='header-color'>
-        <div>
-         <h1 class='header main-nav main-name' id="name"> Amanuel Mehreteab </h1>
-        </div>
 
-         <div class='main-nav sidebar'>
+  <div id="header"></div>
 
-           <ul class='header sidebar' id="menu">
-      	     <li><a href=about.html>About</a></li>
-      	     <li><a href="portfolio.html">Portfolio</a></li>
-             <li><a href="contact.html">Contact</a></li>
-          </ul>
+   <div class='entire-content-area'>
+    <div class='pad'>
+     <div class='main-section-content'>
+       <h1>About Me</h1>
+       <hr>
+       <body>
+         <img id="about-me-image" ALIGN="left" src="assets/images/pexels-photo-462680.jpeg"/>
+         <p id="about-me-text">&emsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+           took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+           centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+           popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+           more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+           Ipsum.<br><br>&emsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+           Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+           a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+           but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised </p>
+       </body>
 
-      	 </div>
-       </div>
+     </div>
+     <div>
 
-       <div class='entire-content-area'>
+       <div id='sidebar'></div>
 
-         <div class='main-section-content'>
-           <h1>About Me</h1>
-           <hr>
-           <body>
-             <img id="about-me-image" ALIGN="left" src="assets/images/pexels-photo-462680.jpeg"/>
-             <p id="about-me-text">&emsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>
-             &emsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in  </p>
-           </body>
+  </div>
 
-         </div>
+  <div id="footer"</div>
 
-         <div class='sidebar'>
-           <div class='connect-width'>
-           <div class='connect-with-me'>
-             <h1 class='connect-with-me-text'>Connect with Me</h1>
-              <br>
-              <hr>
-              <img ALIGN="center" class='icon'src="assets/images/if_github_square_107105.png"/>
-              <img ALIGN="center" class='icon'src="assets/images/if_linkedin_square_color_107091.png"/>
-              <img ALIGN="center" class='icon'src="assets/images/if_stackoverflow_273179.png"/>
-            </div>
-          </div>
-          </div>
-
-
-
-
-<div id="footer" class='footer'>Copyright©2016 BasementGang&UpstairsPerson</div>
+  <script>
+    $(document).ready(function () {
+    $("#header").load("https://raw.githubusercontent.com/amanuelmehreteab7/Basic-Portfolio/master/homework_1/header.html");
+    $("#footer").load("https://raw.githubusercontent.com/amanuelmehreteab7/Basic-Portfolio/master/homework_1/footer.html");
+    $("#sidebar").load("https://raw.githubusercontent.com/amanuelmehreteab7/Basic-Portfolio/master/homework_1/sidebar.html")
+  });
+  </script>
 </html>

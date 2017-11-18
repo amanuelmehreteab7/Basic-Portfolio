@@ -1,3 +1,4 @@
+/*header*/
 .page-width{
   width: 960px;
   height: 90px;
@@ -14,11 +15,6 @@
 .header-color{
   background-color: #ffffff;
 }
-.entire-content-area{
-  padding-top: 130px;
-  width: 960px;
-
-}
 ul#menu li {
   display:inline;
   border-right:2px solid;
@@ -34,11 +30,25 @@ ul#menu li:last-child {
     padding-right: 0px;
     padding-left: 20px;
   }
+/*sidebar*/
 .sidebar{
   float: right;
   width: 270px;
   padding-left: 40px;
 }
+.connect-width{
+  width: 210;
+}
+.connect-with-me{
+  background-color: #ffffff;
+  width:210px;
+  padding:25px;
+  margin: 0px;
+  font-size: 10px;
+  text-align: center;
+  border: 2px #dddddd solid;
+}
+/*main content*/
 .main-section-content{
   width: 590px;
   background-color: #ffffff;
@@ -47,7 +57,13 @@ ul#menu li:last-child {
   padding-right: 25px;
   padding-bottom: 40px;
   border: 2px #dddddd solid;
+  margin-bottom: auto;
 }
+.entire-content-area{
+  padding-top: 130px;
+  width: 960px;
+}
+/*footer*/
 .above-footer-line-color{
   border-color: #4aaaa5
 }
@@ -63,6 +79,7 @@ ul#menu li:last-child {
   margin-top: -50px;
   left: 0 ; right: 0; bottom: 0;
   display: inline-block;
+  color: #777777;
 }
 h1{
   color: #4aaaa5;
@@ -81,18 +98,8 @@ h1{
   padding-bottom: 20px;
 }
 #about-me-text{
-  /*padding-top: 30px;*/
   color: #777777;
   margin-top: 30px
-}
-.connect-with-me{
-  background-color: #ffffff;
-  width:210px;
-  padding:25px;
-  margin: 0px;
-  font-size: 10px;
-  text-align: center;
-  border: 2px #dddddd solid;
 }
 body{
   background: url("../images/bkc/hypnotize.png")
@@ -106,8 +113,6 @@ body{
   line-height: 90px;
   padding-left: 38px;
   padding-right: 38px;
-  /*padding-top: 32.5px;*/
-  /*padding-bottom: 60px;*/
 }
 a:link, a:visited, a:hover, a:active{
   text-decoration: none;
@@ -122,9 +127,6 @@ a:link, a:visited, a:hover, a:active{
 }
 p{
   line-height: 2em;
-}
-.connect-width{
-  width: 210;
 }
 .width-input{
   width: 575px;
